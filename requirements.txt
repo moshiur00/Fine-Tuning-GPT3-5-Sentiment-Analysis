@@ -2,3 +2,5 @@ pandas
 numpy 
 nltk 
 emoji
+openai
+python-dotenv
