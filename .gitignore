@@ -3,6 +3,15 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Project Specific
+*.pyc
+outputs/logs/*
+outputs/model/*
+.env
+venv
+.ipynb_checkpoints
+wandb/
+
 # C extensions
 *.so
 
