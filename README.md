@@ -5,7 +5,7 @@ This project focuses on fine-tuning OpenAI's GPT-3.5 model for sentiment analysi
 ## Project Structure
 ### Key Directories and Files
 
-- **config/**: Contains configuration files for the project.
+- **`config/`**: Contains configuration files for the project.
 - **`data/`**: Includes raw and processed datasets for training, validation, and testing.
 - **`notebooks/`**: Jupyter notebooks for data preprocessing, fine-tuning, and model evaluation.
 - **`outputs/`**: Stores logs, trained models, and evaluation results.
