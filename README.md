@@ -1,6 +1,6 @@
-# Fine-Tuned GPT-3.5 Turbo Sentiment Analysis
+# Fine-Tuned GPT-3.5 Turbo For Sentiment Analysis Task
 
-This project focuses on fine-tuning OpenAI's GPT-3.5 model for sentiment analysis tasks. The workflow includes data preprocessing, fine-tuning the model using different techniques, and evaluating its performance.
+This project focuses on fine-tuning OpenAI's GPT-3.5 model for sentiment analysis tasks. The workflow includes data preprocessing, fine-tuning the model, and evaluating its performance.
 
 ## Project Structure
 
@@ -17,8 +17,8 @@ This project focuses on fine-tuning OpenAI's GPT-3.5 model for sentiment analysi
 ### Installation & Usage
 
 ````bash
-git clone https://github.com/your_username/fine-tuned-gpt3-sentiment-analysis.git
-cd fine-tuned-gpt3-sentiment-analysis
+git clone https://github.com/moshiur00/Fine-Tuning-GPT3-5-Sentiment-Analysis.git
+cd Fine-Tuning-GPT3-5-Sentiment-Analysis
 pip install -r requirements.txt
 
 ### Project Structure
