@@ -10,11 +10,6 @@ This project focuses on fine-tuning OpenAI's GPT-3.5 model for sentiment analysi
 - **`data/`**: Includes raw and processed datasets for training, validation, and testing.
 - **`notebooks/`**: Jupyter notebooks for data preprocessing, fine-tuning, and model evaluation.
 - **`outputs/`**: Stores logs, trained models, and evaluation results.
-- **`scripts/`**: Python scripts for preprocessing, fine-tuning, and evaluation.
-
-## Setup
-
-### Installation & Usage
 
 ````bash
 git clone https://github.com/moshiur00/Fine-Tuning-GPT3-5-Sentiment-Analysis.git
@@ -24,42 +19,11 @@ pip install -r requirements.txt
 ### Project Structure
 - **data/**: Raw and processed datasets.
 - **notebooks/**: Step-by-step experimentation and documentation.
-- **scripts/**: Automation-ready Python scripts.
 - **outputs/**: Trained models, logs, and evaluation results.
 - **config/**: Hyperparameter and training configurations.
 
 
-### 1. Data Preprocessing
 
-Run the preprocessing script to clean and prepare the dataset:
-
-```bash
-python preprocess.py
-````
-
----
-
-### 2. Fine-Tuning
-
-Fine-tune the model using one of the available scripts:
-
-- **Fine-Tuning**:
-
-  ```bash
-  python scripts/finetune_standard.py
-  ```
-
----
-
-### 3. Evaluation
-
-After fine-tuning, evaluate the model's performance:
-
-```bash
-python evaluate.py
-```
-
----
 
 ## Notebooks
 
