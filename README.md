@@ -9,7 +9,6 @@ This project focuses on fine-tuning OpenAI's GPT-3.5 model for sentiment analysi
 - **`config/`**: Contains configuration files for the project.
 - **`data/`**: Includes raw and processed datasets for training, validation, and testing.
 - **`notebooks/`**: Jupyter notebooks for data preprocessing, fine-tuning, and model evaluation.
-- **`outputs/`**: Stores logs, trained models, and evaluation results.
 
 ````bash
 git clone https://github.com/moshiur00/Fine-Tuning-GPT3-5-Sentiment-Analysis.git
@@ -19,7 +18,6 @@ pip install -r requirements.txt
 ### Project Structure
 - **data/**: Raw and processed datasets.
 - **notebooks/**: Step-by-step experimentation and documentation.
-- **outputs/**: Trained models, logs, and evaluation results.
 - **config/**: Hyperparameter and training configurations.
 
 
