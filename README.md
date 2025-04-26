@@ -3,6 +3,7 @@
 This project focuses on fine-tuning OpenAI's GPT-3.5 model for sentiment analysis tasks. The workflow includes data preprocessing, fine-tuning the model using different techniques, and evaluating its performance.
 
 ## Project Structure
+
 ### Key Directories and Files
 
 - **`config/`**: Contains configuration files for the project.
@@ -14,7 +15,8 @@ This project focuses on fine-tuning OpenAI's GPT-3.5 model for sentiment analysi
 ## Setup
 
 ### Installation & Usage
-```bash
+
+````bash
 git clone https://github.com/your_username/fine-tuned-gpt3-sentiment-analysis.git
 cd fine-tuned-gpt3-sentiment-analysis
 pip install -r requirements.txt
@@ -33,7 +35,7 @@ Run the preprocessing script to clean and prepare the dataset:
 
 ```bash
 python preprocess.py
-```
+````
 
 ---
 
@@ -41,23 +43,11 @@ python preprocess.py
 
 Fine-tune the model using one of the available scripts:
 
-- **Standard Fine-Tuning**:
+- **Fine-Tuning**:
 
-    ```bash
-    python scripts/finetune_standard.py
-    ```
-
-- **LoRA Fine-Tuning**:
-
-    ```bash
-    python scripts/finetune_lora.py
-    ```
-
-- **QLoRA Fine-Tuning**:
-
-    ```bash
-    python scripts/finetune_qlora.py
-    ```
+  ```bash
+  python scripts/finetune_standard.py
+  ```
 
 ---
 
@@ -92,4 +82,3 @@ The project also includes interactive Jupyter notebooks for additional workflows
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-
