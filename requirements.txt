@@ -4,3 +4,4 @@ nltk
 emoji
 openai
 python-dotenv
+tiktoken
